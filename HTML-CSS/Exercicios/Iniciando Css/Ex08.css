@@ -1,0 +1,10 @@
+body ,html 
+{height:100%; width:100%;
+    background-size:100%;
+background-image: linear-gradient(10deg, #cacaca , #ffd023 )
+;
+background-repeat: no-repeat;
+} 
+
+h1 {text-align: center;}
+

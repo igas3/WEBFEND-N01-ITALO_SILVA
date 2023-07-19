@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="art.css">
+
+    <title>Forca</title>
+</head>
+<body>
+  <main>
+    
+    <div class="menu">
+        <div class="box1">
+            <img src="img/pixil-frame-0 (3).png" alt="Vidas" id="coracao">
+            <input type="number"  id="numerovida" value= 5  readonly>
+        </div>
+        <div class="box2">
+            <input type="text" disabled value="Dica: Marca de Carro">
+            <input type="text" disabled value="Dica: Numero de letras é " > 
+            <P id="conta"></P>
+        </div>
+      </div>
+      <div class="box3">
+          <input type="text" disabled  id="palavra">
+        </div>
+        <div class="box4" >
+          <div class="keyboard">
+            <button class="key" onclick="handleKey('Q')" class="teclado">Q</button>
+            <button class="key" onclick="handleKey('W')" class="teclado">W</button>
+            <button class="key" onclick="handleKey('E')" class="teclado">E</button>
+            <button class="key" onclick="handleKey('R')" class="teclado">R</button>
+            <button class="key" onclick="handleKey('T')" class="teclado">T</button>
+            <button class="key" onclick="handleKey('Y')" class="teclado">Y</button>
+            <button class="key" onclick="handleKey('U')" class="teclado">U</button>
+            <button class="key" onclick="handleKey('I')" class="teclado">I</button>
+            <button class="key" onclick="handleKey('O')" class="teclado">O</button>
+            <button class="key" onclick="handleKey('P')" class="teclado">P</button>
+          </div>
+            <div>
+              <button class="key" onclick="handleKey('A')" class="teclado">A</button>
+              <button class="key" onclick="handleKey('S')" class="teclado">S</button>
+              <button class="key" onclick="handleKey('D')" class="teclado">D</button>
+              <button class="key" onclick="handleKey('F')" class="teclado">F</button>
+              <button class="key" onclick="handleKey('G')" class="teclado">G</button>
+              <button class="key" onclick="handleKey('H')" class="teclado">H</button>
+              <button class="key" onclick="handleKey('J')" class="teclado">J</button>
+              <button class="key" onclick="handleKey('K')" class="teclado">K</button>
+              <button class="key" onclick="handleKey('L')" class="teclado">L</button>
+            </div>
+            <div>
+              <button class="key" onclick="handleKey('Z')" class="teclado">Z</button>
+              <button class="key" onclick="handleKey('X')" class="teclado">X</button>
+              <button class="key" onclick="handleKey('C')" class="teclado">C</button>
+              <button class="key" onclick="handleKey('V')" class="teclado">V</button>
+              <button class="key" onclick="handleKey('B')" class="teclado">B</button>
+              <button class="key" onclick="handleKey('N')" class="teclado">N</button>
+              <button class="key" onclick="handleKey('M')" class="teclado">M</button>
+            </div>
+          
+        </div>
+        <script src="code.js"></script>
+  </main>
+</body>
+<footer>
+
+</footer>
+</html>

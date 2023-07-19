@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Spartan:wght@700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="reset.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body id="body_1" class="theme__1">
+    <main>
+        <div id="tema" class="container__superior container">
+            <h1>calc</h1>
+            <h2>THEME</h2>
+            <label for="disp" class="switch">
+                <div class="theme_number">
+                    <h3>1</h3>
+                    <h3>2</h3>
+                </div>
+                <input class="theme" type="checkbox" name="theme" id="theme" value="0">
+                <span class="slider round"></span>
+            </label>
+        </div>
+
+        <div class="container container__central">
+            <input type="text" name="disp" id="disp" class="display" disabled>
+        </div>
+
+        <div id="botoes" class="container__inferior container">
+            <div class="box box__1"> <button class="botao botao__1" onclick="adicionarum(7)"> 7 </button> </div>
+            <div class="box box__2"> <button class="botao botao__2" onclick="adicionarum(8)"> 8 </button> </div>
+            <div class="box box__3"> <button class="botao botao__3" onclick="adicionarum(9)"> 9  </button> </div>
+            <div class="box box__4"> <button class="botao botao__4" onclick="backspace()"> DEL </button> </div>
+            
+            <div class="box box__5"> <button class="botao botao__5" onclick="adicionarum(4)"> 4 </button> </div>
+            <div class="box box__6"> <button class="botao botao__6"onclick="adicionarum(5)"> 5 </button> </div>
+            <div class="box box__7"> <button class="botao botao__7"onclick="adicionarum(6)"> 6 </button> </div>
+            <div class="box box__8"> <button class="botao botao__8"  onclick="adicionarum('.')">. </button> </div>
+            
+            <div class="box box__9"> <button class="botao botao__9" onclick="adicionarum(1)"> 1 </button> </div>
+            <div class="box box__10"> <button class="botao botao__10" onclick="adicionarum(2)"> 2 </button> </div>
+            <div class="box box__11"> <button class="botao botao__11" onclick="adicionarum(3)"> 3 </button> </div>
+            <div class="box box__12"> <button class="botao botao__12" onclick="adicionarum(' + ')"> + </button> </div>
+
+            <div class="box box__13"> <button class="botao botao__13"onclick="adicionarum(' - ')"> - </button> </div>
+            <div class="box box__14"> <button class="botao botao__14"onclick="adicionarum(0)"> 0 </button> </div>
+            <div class="box box__15"> <button class="botao botao__15 keys" onclick="adicionarum(' * ')"> x </button> </div>
+            <div class="box box__16"> <button class="botao botao__16 keys" onclick="adicionarum(' / ')">÷</button> </div>
+
+            <div class="box box__17"> <button class="botao botao__17" onclick="reset()"> RESET </button> </div>
+            <div class="box box__18"> <button class="botao result" onclick = "calc()"> = </button> </div>  <!--onclick="igual()" -->
+        </div>
+
+    
+    </main>
+    
+    <script src="calculadora.js"></script>
+</html>

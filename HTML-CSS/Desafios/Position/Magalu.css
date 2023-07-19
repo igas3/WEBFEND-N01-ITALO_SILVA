@@ -1,0 +1,38 @@
+body ,html 
+{height:100%; width:100%;
+background-color: #ffffff;
+
+background-size:100%;
+font-size: 0.9rem;} 
+
+
+header{
+background-color: #0083fd;;
+background-repeat: no-repeat;
+ 
+color: #fff;
+box-shadow: #000000 0px 0px 7px;
+} 
+
+
+.slogan {
+    text-align: center; 
+    font-size: 90px ;
+    display: inline-block;
+    margin-left: 25%;
+    text-shadow: #000000 0px 0px 6px;
+    color: #fff;
+}
+.logo {width: 194px; color: #ffffff; display:inline-block; box-shadow: #000000 0px 0px 0px; }
+.logomarca {
+    display: block;
+}
+
+.Speedu {display:  inline-block; margin-right: 10px;}
+.produto {width: 400px; margin-top: 10px;
+}
+
+h3 {font-size: 1.4rem; color: #000000; }
+h2 {color: #000000;}
+p {color: #000000;}
+img {box-shadow: #000000 0px 0px 5px; height: 20%;}

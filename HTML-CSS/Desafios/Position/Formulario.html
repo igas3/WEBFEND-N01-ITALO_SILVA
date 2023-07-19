@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="formulario.css">
+   
+</head>
+<body>
+ 
+    
+        <form action="">
+            <fieldset>
+            <div>
+            
+                    <label for="usu">Usuario</label>
+                    <input type="text" name= "usu"id="usu" placeholder="ojoao03" required oninvalid="this.setCustomValidity('Preencha esse campo')" oninput="setCustomValidity('')">
+            
+            </div>
+            <div>
+                <label for="mail">Mail</label>
+                <input type="email" name="mail" id="mail" placeholder="otaldojoao@email.com" required  oninvalid="this.setCustomValidity('Preencha esse campo')" oninput="setCustomValidity('')">
+            </div>
+            <div>
+                <label for="sexo">Sexo</label>
+                <select name="Sexo" id="sexo">
+                    <option value=""select hidden>Selecione</option>
+                    <option value="">Masculino</option>
+                    <option value="">Feminino</option>
+                    <option value="">Outro</option>
+                </select>
+            </div>
+            <div>
+                <label for="senha">senha</label>
+                <input type="password" name="senha" id="senha" placeholder="........" minlength="8" required  oninvalid="this.setCustomValidity('Preencha esse campo')" oninput="setCustomValidity('')">
+            </div>
+            <div>
+            
+            <input type="submit" placeholder="enviar" required oninvalid="this.setCustomValidity('Preencha esse campo')" oninput="setCustomValidity('')">
+            </div>
+            </fieldset>
+            </form>
+ 
+</body>
+</html>

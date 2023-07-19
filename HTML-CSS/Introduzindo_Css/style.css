@@ -1,0 +1,33 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap');
+
+body {
+    background-color: #000;
+height:100%;
+width:100%;
+}
+h1 {
+    color: #ffe135;
+    font-size: 3rem;
+    font-weight: 10000;
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-style: italic;
+    text-decoration:line-through;
+    text-align: center;
+    text-shadow: 2px 2px 8px #47c7dc;
+}
+#titl{
+    font-size: 4em;
+}
+.ags {color: #ffe135;}
+#neto {
+    margin: 100px; /* margem total */
+    margin: 100px 80px 20px 80px; /* margem l - margem - t margem - r margem b*/
+    margin: 100px 50px; /* margem x -  margem y*/ 
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+
+    height: 50%;
+}

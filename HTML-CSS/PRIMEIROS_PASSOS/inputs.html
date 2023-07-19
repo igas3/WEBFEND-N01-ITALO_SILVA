@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inputs</title>
+</head>
+<body>
+    <fieldset>
+    <form>
+            <div>
+            <label for="nome">nome</label>
+            <input type="text" name="nome"  id="nome" placeholder="Fulano" required>
+            </div>
+            <div>
+            <label for="sobrenome">sobrenome</label>
+            <input type="text" name="sobrenome"  id="sobrenome" placeholder="De tal">
+            </div>
+            <div>
+                <label for="cpf">cpf</label>
+                <input type="number" name="cpf" id="cpf" placeholder="000.000.000-00"> 
+            </div>
+            <div>
+                <label for="cep">cep</label>
+                <input type="number" name="cep" id="cep" placeholder="*****-***"> 
+            </div>
+            <div>
+                <label for="tel">tel</label>
+                <input type="tel" name="tel" id="tel" placeholder="(00)90000-0000"> 
+            </div>
+            <div>
+                <label for="mail">E-mail</label>
+                <input type="mail" name="mail" id="mail" placeholder="xxxxxxxxx@xxxxxx.xxx" >
+            </div>
+            <div>
+                <label for="senha">senha</label>
+                <input type="password" name="senha" id="mail" placeholder="********" minlength="8"> 
+            </div>
+            <div>
+                <textarea name="" id="" cols="30" rows="10" maxlength="100"></textarea>
+            </div>
+            <div>
+              <button type="submit">Sair</button>
+            </div>
+       </fieldset>
+       <fieldset>
+        <input type="checkbox" checked> Você é um robô
+        <br><input type="radio" name="sim" id="">
+        <input type="radio" name="sim" id="" checked>
+        <input type="radio" name="sim" id="">
+        <input type="range">
+        <input type="color">
+        <input type="date" name="date" id="">
+        <input type="time">
+        <input type="image">
+        <input type="file">
+        <input type="hidden">
+        <input type="url">
+        <input type="search">
+
+        
+       </fieldset>
+    </form>
+</body>
+</html>

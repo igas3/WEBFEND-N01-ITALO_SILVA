@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Rammetto+One&display=swap');
+
+body {
+    background-color: #33a457;
+    font-family: 'Rammetto One', cursive;
+}
+
+header {
+    background-color: #f7f7f7;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.img_logo {
+    height: 150px;
+}
+
+.logomarca {
+    font-size: 50px;
+}
+
+.nomepro1 {
+    margin: 10px 0px;
+    font-size: 2em;
+    
+}
+
+.produtos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 155px;
+    width: 100%;
+    background-color: #cc2229;
+}
+
+.produtos2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 155px;
+    width: 100%;
+    background-color:#33a457;
+}
+.produtos3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 155px;
+    width: 100%;
+    background-color:#cc2229;
+}
+.video {
+    display: flex;
+    justify-content: center;
+    height: 155px;
+    width: 100%;
+    background-color:#33a457;
+}
+
+.informacoes {
+    display: flex;
+    flex-direction: column;
+}
+
+.lata_01 {
+    width: 150px;
+    filter: drop-shadow(10px 10px 10px #000);
+}
+.garrafa {
+    height: 150px;
+    filter: drop-shadow(10px 10px 10px #000);
+}
+.chav  {
+    height: 150px;
+    filter: drop-shadow(10px 10px 10px #000);
+}
+
+h2 {
+    font-size: 15px;
+}

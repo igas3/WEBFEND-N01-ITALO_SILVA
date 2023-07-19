@@ -1,0 +1,13 @@
+.container__superior{
+    display: flex;
+    justify-content: center;
+    background-color: aquamarine;
+}
+.container__central{display: flex;
+    justify-content: center;
+    background-color: blueviolet;
+}
+.container__inferior{display: grid;
+    justify-items: center;
+    background-color:red ;
+}

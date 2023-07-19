@@ -1,0 +1,31 @@
+.container{
+    height: 300px;
+    width: 99%;
+    border: 5px solid black;
+}
+
+.box {
+    height:100px;
+    width:200px;
+}
+.box1, .box4, .box7 {
+    background-color: blue;
+}
+.box2, .box5, .box8 { 
+    background-color: gray;
+}
+.box3, .box6, .box9 { 
+    background-color: yellow;
+}
+.container_1 {display: flex;
+    justify-content: center;
+}
+.container_2 {display: flex;
+    align-items: center;
+    flex-direction: column-reverse;
+}
+.container_3 {display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}

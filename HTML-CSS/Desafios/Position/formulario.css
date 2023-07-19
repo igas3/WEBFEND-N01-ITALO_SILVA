@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap');
+
+body {
+    background-color: #bda476;
+    width: 100%;
+    height: 100%;
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-size: 0.8rem;
+}
+
+form {margin-left: 45%; 
+margin-top: 20%;}
+
+fieldset {
+    width: 10%;
+    background-color: #423723;
+    color: #cacaca;
+    
+}
+
+select { background-color: #bda476;
+font-family: 'Sedgwick Ave Display', cursive; 
+color: #707070;}
+
+input {
+    display: block;
+ background-color: #bda476;
+ font-family: 'Sedgwick Ave Display', cursive; 
+color: #252525;
+}
+
+
+
+select {
+    display: block;
+    background-color: #bda476;
+}
+
+#usu {
+    width: 60px;
+
+}

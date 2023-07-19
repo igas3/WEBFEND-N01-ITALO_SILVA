@@ -1,0 +1,219 @@
+html {
+    
+    width: 100%;
+  
+}
+
+header {
+    height: 70px;
+    width: 100%;
+    background-color: #ffcbc4;
+    display: flex;
+    justify-content: space-between;
+    border: #000;
+    border-radius: 5px;
+    border-style: dashed;
+
+}
+
+footer {
+    height: 200px;
+    width: 100%;
+    background-color: #ffcbc4;
+    display: flex;
+    justify-content: space-between;
+    border: #000;
+    border-radius: 5px;
+    border-style: dashed;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+ul {
+    margin-top: 15px;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 2rem;
+    color: black;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #fff;
+   height: 800px;
+    width: 100%
+}
+
+
+
+.nomehome {
+    display: flex;
+    justify-content: space-around;
+    font-size: 3rem;
+    margin-left: 45px;
+}
+
+.nomehome2 {
+    display: flex;
+    justify-content: space-around;
+    font-size: 3.1rem;
+    margin-left: 45px;
+}
+
+.nomehome3 {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 45px;
+}
+
+.imghome {
+    height: 333.3px;
+    filter: drop-shadow(10px 10px 10px #000);
+}
+
+.nhac {
+    height: 100px;
+}
+
+.sac {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+
+.imghome:hover {
+    height: 400px;
+}
+
+
+
+
+
+/*                   login                                */
+.login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffcbc4;
+    height: 300px;
+    width: 100%;
+    border: #000;
+    border-radius: 5px;
+    border-style: dashed;
+}
+
+.filogin {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 450px;
+    width: 450px;
+}
+
+label {
+    width: 80px;
+    margin: 0px 10px;
+    display: inline-block;
+    text-align: end;
+    /* background-color: aqua; */
+}
+
+.container_input {
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*   produtos         */
+
+
+
+.imgprod {
+    height: 120px;
+    margin-left: 65px;
+    filter: drop-shadow(10px 10px 10px #000);
+}
+
+.imgprod2 {
+    height: 80px;
+    margin-left: 65px;
+    display: inline;
+    filter: drop-shadow(10px 10px 10px #000);
+}
+
+.price {
+    display: flex;
+    justify-content: space-around;
+    font-size: 2rem;
+    margin-left: 45px;
+}
+
+.nomeprod {
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.5rem;
+    margin-left: 45px;
+}
+
+.desc {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 45px;
+}
+
+.filtro {
+    justify-content: space-between;
+    height: 15px;
+    width: 100%;
+}
+
+.oqvp {
+    width: 150px;
+    margin: 0px 10px;
+    display: inline-block;
+    text-align: end;
+}
+.menupro {
+
+    border: #000;
+    border-radius: 5px;
+    border-style: dashed;
+    background-color: #ffcbc4;
+}
+
+.imgprod2:hover {
+    height: 70px;
+}
+.imgprod:hover {
+    height: 90px;
+}
+
+/* sobre  */
+
+.sobre { 
+    background-color: #ffcbc4;
+    height:380px ;
+    width :42%;
+    border: #000;
+    border-radius: 5px;
+    border-style: dashed;
+}
+.nhac {
+font-size: 3em;
+
+
+}

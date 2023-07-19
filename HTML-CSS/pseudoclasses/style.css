@@ -1,0 +1,28 @@
+body {background-color: darkgrey;}
+.box1 { transition: 2s;
+    height: 250px ;
+    width: 250px;
+    background-color: red;
+ }
+
+.box1:hover{ transition: 2s; 
+    height: 350px ;
+    scale: 10px ;
+    translate: 45px ;
+    background-color: brown;
+transform: rotateZ(40deg);
+}
+
+ .box2 {
+    transition: 2s;
+    background-color: rgb(255, 238, 0);
+user-select: none; 
+}
+ .box2:active { background-color: blue;}
+
+ .sim:hover {translate: 500px ;}
+ li:last-child { color: yellow; }
+ li:nth-child(2) {color: #ff06b5 ;}
+ li:nth-child(3) {color: #0004ff ;}
+ li:nth-child(4) {color: #312600 ;}
+ li:first-child {color: red ;}

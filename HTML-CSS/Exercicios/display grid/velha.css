@@ -1,0 +1,89 @@
+ 
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+html {font-family: 'Luckiest Guy', cursive;}
+body { background-color: brown;}
+header 
+{ height: 60px;
+     width:100% ;
+     background-color: brown;
+     display: inline-block;
+     font-size: 3em;
+}
+.menu { background-color: brown;
+display: flex;
+align-content: center;
+justify-content: center;
+height: 1000px;
+width:100%;
+margin-top: 80;
+
+}
+.comcoc { 
+    height: 60px;
+}
+.container {
+    height: 700px;
+    width:700px;
+     background-color: black; 
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    grid-template-areas: 
+    "caixa1 caixa2 caixa3"
+    "caixa4 caixa5 caixa6"
+    "caixa7 caixa8 caixa9"    
+    ;
+    box-shadow: 1px 1px 8px;
+    }
+.box { background-color: aqua; 
+display: grid;
+width: 200px;
+height: 200px;
+justify-items: center;
+align-items: center;
+
+}
+.btn { display: inline; 
+height: 150px;
+width: 150px;
+font-size: 5em;
+border-style: none;
+}
+
+.b1 { grid-area: caixa1;
+    background-color:#ffff00;}
+.b2 {grid-area: caixa2;
+        background-color: #0000ff ;}
+.b3 {grid-area: caixa3;
+    background-color: #9acd32 ;}
+.b4 {grid-area: caixa4;
+    background-color: #ff0000 ;}
+.b5 {grid-area: caixa5;
+    background-color: #ffa500 ;}
+.b6 {grid-area: caixa6;
+    background-color: #ffebcd ;}
+.b7 {grid-area: caixa7;
+    background-color: #808080;}
+.b8 {grid-area: caixa8;
+    background-color: #ffc0cb ;}
+.b9 {grid-area: caixa9;
+    background-color: #ff7f50 ;}
+
+.btn1 { background-color: #ecec00;}
+.btn2 {background-color: #0000e9 ;}
+.btn3 {background-color: #8cbb2f ;}
+.btn4 {background-color: #e20000 ;}
+.btn5 {background-color: #ca8300 ;}
+.btn6 {background-color: #cabaa3 ;}
+.btn7 {background-color: #575757;}
+.btn8 {background-color: #cf9da5 ;}
+.btn9 {background-color: #ce6640 ;}
+
+.nome { display: flex;
+margin-bottom: 15px;
+justify-content: center;
+border: black;
+}
+input { border-color: #000000;
+    border-style: dashed; 
+    border-radius: 90;}
