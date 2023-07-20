@@ -13,33 +13,40 @@ console.log(palavra);
 const tamanho=palavra.length
 
 console.log(tamanho);
-document.getElementById("conta") = tamanho
+
 
 const vida = document.getElementById("numerovida")
 
 
-
-
-
-
-
-
-
-
-
-
-
 let letrasuse = [];
-let letranova = "";
+
+
+
 
 //teclado
 function handleKey(letter) {
   let letra = letter
   console.log(`Tecla pressionada: ${letra}`);
   letrasuse.push(letra);
-  letranova += letra;
+   letranova = letra;
 }
 
-console.log(letranova);
+
 console.log(letrasuse);
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
