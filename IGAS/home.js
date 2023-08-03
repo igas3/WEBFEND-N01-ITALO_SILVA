@@ -19,7 +19,7 @@ loginbtn.addEventListener("click", () => {
         ) {
             if (login.senha === senhaValor) {
 
-                window.location.href = "login.html"
+                window.location.href = "search.html"
             }
             else {
                 alert("Senha errada")
