@@ -1,6 +1,7 @@
 const nome = document.getElementById("nomeh")
 const senha = document.getElementById("senhah")
 const loginbtn = document.getElementById("loginbtn")
+const singbtn= document.getElementById("singin")
 
 
 const login = {
