@@ -1,25 +1,43 @@
 const nome = document.getElementById("nomeh")
 const senha = document.getElementById("senhah")
 const loginbtn = document.getElementById("loginbtn")
-const singbtn= document.getElementById("singin")
+const singbtn = document.getElementById("singin")
 
 
-const login = {
-    user: "italo",
-    senha: "2fast4u"
+const login = [
+{
+    cliente_1: {
+        user: "italo",
+        senha: "2fast4u"
+    },
+    cliente_2: {
+
+        user:"senna",
+        senha:"puntatacco"
+    }
+
 }
+]
 
 loginbtn.addEventListener("click", () => {
-    const nomeValor = nome.value
-    const senhaValor = senha.value
 
+for (let i = 0; i < login.length; i++) {
+    console.log(i);
+    if (nome.value.includes(login[i].user) ) {
+        
+   
+   
+        
+        const nomeValor = nome.value
+    const senhaValor = senha.value
+    
     if (nomeValor !== "" && senhaValor !== "") {
         console.log("okay");
         if (login.user === nomeValor
-
-        ) {
+            
+            ) {
             if (login.senha === senhaValor) {
-
+                
                 window.location.href = "search.html"
             }
             else {
@@ -29,11 +47,14 @@ loginbtn.addEventListener("click", () => {
         else {
             alert("Senha ou Login Errado")
         }
-
+        
     } else {
         alert("seu login não pode estar vazio")
     }
+    
+}
 
+}
 
 })
 
