@@ -5,26 +5,29 @@ const singbtn = document.getElementById("singin")
 
 
 const login = [
-    {
-        cliente_1: {
+       {
             user: "italo",
             senha: "2fast4u"
         },
-        cliente_2: {
+       {
 
             user: "senna",
             senha: "puntatacco"
+        },
+        {
+            user:"pedro",
+            senha:"123"
         }
 
-    }
+    
 ]
 
 loginbtn.addEventListener("click", () => {
-
+    
     for (let i = 0; i < login.length; i++) {
         console.log(login[i]);
-        if (nome.value.includes(login[i])) {
-
+        if (nome.value.includes(login[i].user ) && (senha.value.includes(login[i].senha))) {
+            console.log(nome.value.includes(login[i].user ));
 
 
 
@@ -33,27 +36,20 @@ loginbtn.addEventListener("click", () => {
 
             if (nomeValor !== "" && senhaValor !== "") {
                 console.log("okay");
-                if (login.user === nomeValor
-
-                ) {
-                    if (login.senha === senhaValor) {
+               {
+                    
 
                         window.location.href = "search.html"
-                    }
-                    else {
-                        alert("Senha errada")
-                    }
+                   
                 }
-                else {
-                    alert("Senha ou Login Errado")
-                }
-
             } else {
                 alert("seu login não pode estar vazio")
             }
 
         }
-
+       else{
+        setTimeout(() => { alert ("Senha ou login errado") }, 500)
+       }
     }
 
 })

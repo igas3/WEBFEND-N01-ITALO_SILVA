@@ -1,7 +1,10 @@
 const botao1 = document.getElementsByClassName('botao__1');
-
+const checkbox = document.querySelector('.theme')
 const disp = document.getElementById('disp')
 const resetar = document.getElementById("reset")
+const htmlTema = document.getElementById('tema'),
+theme2 = document.querySelector('.theme__2')
+
 let conta
 let num;
 
@@ -27,15 +30,19 @@ function backspace(lg) {
 }
 
 
-// function igual(cont) { 
+checkbox.addEventListener('change', function(){
 
-//      let conta= disp.value.split(' ')
-//     ;
-//     console.log(conta);
+    if(this.checked==true) {
+        htmlTema.classList.add('theme__2')
+        htmlTema.classList.remove('theme__1')
+    }
 
+    if(this.checked == false) {
+        htmlTema.classList.add('theme__1')
+        htmlTema.classList.remove('theme__2')
+    }
 
-
-// }
+})
 
 
 
