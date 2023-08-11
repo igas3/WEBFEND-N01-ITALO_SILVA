@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Formulário</title>
+    </head>
+    <body>
+        <!-- Formulário com campos de entrada e um botão -->
+        <form id="meuFormulario">
+            <input type="text" id="nome" placeholder="Nome" />
+            <input type="email" id="email" placeholder="Email" />
+            <!-- Quando o botão é clicado, a função enviarFormulario() é chamada -->
+            <button type="button" onclick="enviarFormulario()">Enviar</button>
+        </form>
+
+        <script>
+            function enviarFormulario() {
+                // Obter os valores dos campos de entrada
+                var nome = document.getElementById("nome").value;
+                var email = document.getElementById("email").value;
+
+                // Armazenar os valores em sessionStorage para uso posterior
+                sessionStorage.setItem("nome", nome);
+                sessionStorage.setItem("email", email);
+
+                // Redirecionar para a página de destino
+                window.location.href = "index2.html";
+            }
+        </script>
+    </body>
+</html>

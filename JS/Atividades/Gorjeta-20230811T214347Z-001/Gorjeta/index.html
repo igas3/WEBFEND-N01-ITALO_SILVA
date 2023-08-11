@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+
+  <title>Gorjetador</title>
+
+</head>
+<body>
+<header>
+  <p>
+    IGAS <br>
+    calculator
+  </p>
+</header>
+
+<main>
+
+  <div id="calculator" class="calculator">
+
+    <label for="bill"> Conta <span id="billEmpty" class="errorEmpty"></span></label>
+    <input class="bill-input" id="bill" type="number" >
+    <h2>Selecione Gorjeta %</h2>
+
+    <form id="tip" class="tax">
+      <button id="5" class="button-dark">5%</button>
+      <button id="10" class="button-dark">10%</button>
+      <button id="15" class="button-dark">15%</button>
+      <button id="25" class="button-dark">25%</button>
+      <button id="50" class="button-dark">50%</button>
+      <input  id="customTip" class="button-light" type="number" placeholder="Custom">
+    </form>
+
+    <label for="numPeaple">Numero de pessoas <span id="peapleEmpty" class="errorEmpty"></span></label>
+    <input class="person-input" id="numPeaple" type="number" >
+
+  </div>
+
+  <div class="scream">
+
+    <div class="scream-content">
+      <div class="scream-content-text">
+        <h3>Total da conta</h3>
+        <p class="text-s">/ pessoa</p>
+      </div>
+      <div id="tipValue" class="scream-content-value">
+      </div>
+    </div>
+
+    <div class="scream-content2">
+      <div class="scream-content-text">
+        <h3>Total</h3>
+        <p class="text-s">/ pessoa</p>
+      </div>
+      <div id="personBill" class="scream-content-value">
+      </div>
+
+    </div>
+
+    <div class="buttons">
+      <button id="reset" class="button-medium">Resetar</button>
+      <button id="send" class="button-medium">Calcular</button>
+    </div>
+  </div>
+</main>
+
+</body>
+<script src="script.js"></script>
+</html>

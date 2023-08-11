@@ -1,13 +1,124 @@
+.theme__1 {
+ 
+    background-color: #EFDFBB;
+    background-image: url("https://www.transparenttextures.com/patterns/connected.png");
+ 
+  margin: 0%;
+}
+
+.theme__2 {
+
+     
+    background-color: #3B271E;
+    background-image: url("https://www.transparenttextures.com/patterns/connected.png");
+  margin: 0%;
+}
+
+
+html{
+    height: 100%;
+    width: 100%;
+} 
+
+main{font-family: 'Space Mono', monospace;
+    margin-top: 30px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    
+}
+.container{
+    border: 5px black groove;
+    background-color: gray;
+    
+}
 .container__superior{
     display: flex;
     justify-content: center;
-    background-color: aquamarine;
+    height: 20px;
+    border-bottom: 0px none;
 }
 .container__central{display: flex;
     justify-content: center;
-    background-color: blueviolet;
+    height: 70px;
+    border-top: 0px none;
+    border-bottom: 0px none;
 }
-.container__inferior{display: grid;
+.container__inferior{
+ width: 400px;
+height: 400px;
+margin-top: 0px;
+    display: grid;
     justify-items: center;
-    background-color:red ;
+     grid-template-columns: 1fr 1fr 1fr 1fr;
+    border-top : solid;
+    }
+
+.box{
+    width: 100px;
 }
+.botao{font-family: 'Space Mono', monospace;
+    height: 75px;
+    width:   60px;
+    height: 60px;
+    text-align: center;
+    font-size: 2rem;
+    margin-left: 20px;
+    margin-top: 10px;
+    border: black 5px outset;
+}
+
+.botao:active{
+    border: rgb(0, 0, 0) 5px inset;
+
+}
+.box__17 {
+    
+    grid-column: 3/4;
+ grid-row: 5;
+}
+
+.result{
+    margin-left: 20px;
+
+    width: 160px;
+    
+}
+.botao__17{
+    background-color: rgb(255, 0, 0);
+    width: 160px;
+    margin-left: 10;
+}
+
+
+
+.display{
+    font-family: 'Space Mono', monospace;
+    font-size: 3rem;
+    width: 350px;
+    height: 50px;
+    border: black 1px double;
+    text-align: end;
+}
+
+
+
+
+/**/
+
+
+.theme {
+    appearance: none;
+    -webkit-appearance: none;
+    width: 15px;
+    height: 15px;
+    border: 2px solid #333;
+    border-radius: 100px;
+    cursor: pointer;
+    background-color: #3B271E ;
+  }
+  
+  .theme:checked {
+    background-color: #EFDFBB;
+  }
+  

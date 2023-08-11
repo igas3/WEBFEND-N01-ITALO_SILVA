@@ -1,0 +1,188 @@
+/*global*/
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Space Mono', monospace;
+    list-style: none;
+    color: hsl(0, 0%, 0%);
+    font-size: 17px;
+}
+
+h3{
+    color: #FFFFFF;
+    font-size: 15px;
+}
+
+.text-s{
+    font-size: 14px;
+}
+
+
+
+
+
+button{
+    cursor: pointer;
+}
+
+.button-medium {
+    background-color: rgb(192, 38, 38);
+    color: rgb(255, 217, 0);
+}
+
+
+
+.button-light{
+    background-color: hsl(189, 41%, 97%);
+}
+
+.button-dark{
+    background-color: rgb(77, 0, 0);
+    color: #FFFFFF;
+}
+
+
+.button-dark{
+    background-color: rgb(77, 0, 0);
+    color: #FFFFFF;
+}
+
+
+
+.errorEmpty{
+    color: rgb(234, 150, 129);
+    text-align: right;
+    font-size: 16px;
+}
+
+body{
+    background-color: rgb(231, 217, 197);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header{
+    justify-content: center;
+    margin: 20px 0;
+}
+
+
+
+main{
+    display: flex;
+    width: 900px;
+    height: 480px;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.calculator{
+    display: flex;
+    flex-direction: column;
+    width: calc(50% - 100px);
+    padding: 50px;
+}
+
+.calculator input{
+    border: none;
+    background-color: hsl(189, 41%, 97%);
+    height: 40px;
+    border-radius: 5px;
+    color: hsl(49, 100%, 50%);
+    font-weight: bold;
+    font-size: larger;
+    text-align: right;
+    line-height: normal;
+    padding-right: 20px;
+    margin-top: 10px;
+}
+
+
+.tax{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 25px;
+}
+
+.calculator h2{
+    margin-top: 25px;
+}
+
+.tax button{
+    width: 30%;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+}
+
+.tax input{
+    width: calc(30% - 15px);
+    margin: 0;
+    height: 40px;
+    border: none;
+    padding-right: 15px;
+}
+
+.tax input::placeholder{
+    font-size: 17px;
+}
+
+.calculator label{
+    display: flex;
+    justify-content: space-between;
+}
+
+.scream{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: calc(50% - 160px);
+    margin: 30px;
+    border-radius: 20px;
+    background-color: rgb(0, 0, 0);
+    overflow: hidden;
+    padding: 50px;
+}
+
+.scream-content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.scream-content-value{
+    color: #ffc400;
+    font-size: 23px;
+    max-width: 222px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.scream-content2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.scream button{
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+
+.buttons{
+    display: flex;
+    height: 100%;
+    margin-top:150px;
+    gap: 15px;
+}
+
+
+
+
